@@ -1,0 +1,33 @@
+{
+    "name": "meum.ru/meum-tools",
+    "description": "Meum.ru",
+    "keywords": [
+        "meumru",
+        "php"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "meum.ru",
+            "email": "admin@meum.ru"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "Meumru\\MeumTools\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MeumTools\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
